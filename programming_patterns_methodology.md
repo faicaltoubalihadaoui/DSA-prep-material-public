@@ -1,34 +1,84 @@
-# IN - PROGRESS
+
+# Hashing
+
+    Key Idea: Use hash maps or sets to optimize lookups and data storage.
+    Examples:
+        Two Sum
+        Longest Subarray with Sum Zero
+        Group Anagrams
+        Subarray Sums Divisible by K
+
+# Monotonic Stack/Queue
+
+    Key Idea: Use stacks or queues to solve problems involving sequences with a monotonic property.
+    Examples:
+        Next Greater Element
+        Largest Rectangle in Histogram
+        Trapping Rain Water
+        Sliding Window Maximum
+
+# BFS/DFS for Trees
+
+    Key Idea: Use traversal techniques for solving hierarchical data structure problems.
+    Examples:
+        Lowest Common Ancestor
+        Binary Tree Zigzag Level Order Traversal
+        Maximum Depth of a Binary Tree
+        Path Sum Problems
+
+
 # Two Pointers Pattern 
-Use two pointers i and j to iterate over a DS ( to separate between elements based on conditions )
-## Ideal :
-+ Efficient Transversal : O(n)
-+ In place modification : No additionnal memory is required since pointers are used to rearrange the existing data structure 
+    Key Idea: Use two pointers i and j to iterate over a DS ( to separate between elements based on conditions )
+    Examples:
 
-## Exos :
-    Removing duplicates from a sorted list.
-    Detecting cycles in a linked list (Floyd's Tortoise and Hare Algorithm).
-    Segregate even and odd nodes in a Linked List ✅
-    Merging two sorted arrays.
-    Partitioning an array (e.g., moving all negatives to one side).
-    Reversing vowels in a string.
-    Checking for palindromes.
-    Two Sum II - Input Array Is Sorted 
-    Container With Most Water ✅
-    Remove Duplicates from Sorted Array
-    Next Permutation 
-    Trapping Rain Water
-
-# WISH LIST
+        Removing duplicates from a sorted list.
+        Detecting cycles in a linked list (Floyd's Tortoise and Hare Algorithm).
+        Segregate even and odd nodes in a Linked List 
+        Merging two sorted arrays.
+        Partitioning an array (e.g., moving all negatives to one side).
+        Reversing vowels in a string.
+        Checking for palindromes.
+        Two Sum II - Input Array Is Sorted 
+        Container With Most Water 
+        Remove Duplicates from Sorted Array
+        Next Permutation 
+        Trapping Rain Water
 
 # Divide and Conquer
 
     Key Idea: Break the problem into smaller subproblems, solve them independently, and combine the results.
     Examples:
-        Merge Sort ✅
-        Quick Sort ✅
-        Binary Search ✅
+        Merge Sort 
+        Quick Sort 
+        Binary Search 
         Matrix Exponentiation
+
+# Sliding Window
+
+    Key Idea: Use a window (a subset of data) to solve problems involving arrays or strings, moving the window to include/exclude elements efficiently.
+    Examples:
+        Maximum Sum Subarray (Kadane's Algorithm) 
+        Longest Substring Without Repeating Characters
+        Minimum Window Substring
+        Sliding Window Maximum
+
+# Heap/Priority Queue
+
+    Key Idea: Use heaps to efficiently solve problems requiring frequent access to the smallest or largest element.
+    Examples:
+        Top K Elements
+        Merge K Sorted Lists
+        Median in a Stream
+        Dijkstra's Algorithm
+
+# Graph Algorithms
+
+    Key Idea: Use specialized algorithms to traverse or optimize problems involving graphs.
+    Examples:
+        Breadth-First Search problems (BFS)
+        Depth-First Search problems (DFS)
+        Kruskal's and Prim's Algorithms (Minimum Spanning Tree)
+        Bellman-Ford and Floyd-Warshall (Shortest Paths)
 
 # Dynamic Programming (DP)
 
@@ -57,32 +107,6 @@ Use two pointers i and j to iterate over a DS ( to separate between elements bas
         Subset Generation
         Permutations and Combinations
 
-# Sliding Window
-
-    Key Idea: Use a window (a subset of data) to solve problems involving arrays or strings, moving the window to include/exclude elements efficiently.
-    Examples:
-        Maximum Sum Subarray (Kadane's Algorithm) ✅
-        Longest Substring Without Repeating Characters
-        Minimum Window Substring
-        Sliding Window Maximum
-
-# Two Pointers
-
-    Key Idea: Use two pointers to solve problems involving sorted arrays or linked lists efficiently.
-    Examples:
-        Merge Two Sorted Arrays
-        Two Sum (Sorted Array) ✅
-        Trapping Rain Water
-        Find Triplets with Zero Sum
-
-# Graph Algorithms
-
-    Key Idea: Use specialized algorithms to traverse or optimize problems involving graphs.
-    Examples:
-        Breadth-First Search (BFS)
-        Depth-First Search (DFS)
-        Kruskal's and Prim's Algorithms (Minimum Spanning Tree)
-        Bellman-Ford and Floyd-Warshall (Shortest Paths)
 
 # Union-Find (Disjoint Set Union, DSU)
 
@@ -105,7 +129,7 @@ Use two pointers i and j to iterate over a DS ( to separate between elements bas
 
     Key Idea: Leverage sorting as a preprocessing step to simplify problems.
     Examples:
-        Two Sum (Sorted Array + Two Pointers) ✅
+        Two Sum (Sorted Array + Two Pointers) 
         Meeting Rooms Problem
         Kth Largest Element in an Array
         Merge Intervals
@@ -136,32 +160,8 @@ Use two pointers i and j to iterate over a DS ( to separate between elements bas
         Subarray Sum Equals K
         Difference Array for Range Updates
 
-# Heap/Priority Queue
 
-    Key Idea: Use heaps to efficiently solve problems requiring frequent access to the smallest or largest element.
-    Examples:
-        Top K Elements
-        Merge K Sorted Lists
-        Median in a Stream
-        Dijkstra's Algorithm
 
-# Hashing
-
-    Key Idea: Use hash maps or sets to optimize lookups and data storage.
-    Examples:
-        Two Sum
-        Longest Subarray with Sum Zero
-        Group Anagrams
-        Subarray Sums Divisible by K
-
-# Monotonic Stack/Queue
-
-    Key Idea: Use stacks or queues to solve problems involving sequences with a monotonic property.
-    Examples:
-        Next Greater Element
-        Largest Rectangle in Histogram
-        Trapping Rain Water
-        Sliding Window Maximum
 
 # Randomized Algorithms
 
@@ -172,14 +172,7 @@ Use two pointers i and j to iterate over a DS ( to separate between elements bas
         Monte Carlo Algorithms
         Randomized Algorithms for Median
 
-# BFS/DFS for Trees
 
-    Key Idea: Use traversal techniques for solving hierarchical data structure problems.
-    Examples:
-        Lowest Common Ancestor
-        Binary Tree Zigzag Level Order Traversal
-        Maximum Depth of a Binary Tree
-        Path Sum Problems
 
 # Segment Trees/Fenwick Trees
 
@@ -200,57 +193,89 @@ Use two pointers i and j to iterate over a DS ( to separate between elements bas
 
 
 
-
-
-
-
+References :
 
 Arunkumar RajendranArunkumar Rajendran  
 Bookmark this post, this is a great list of problems for OAs and Coding interviews. 
 
 ► Dynamic Programming (45 Problems)
+
 https://lnkd.in/gHYgRDSZ  https://leetcode.com/problem-list/9x5spweh/
-►Greedy Algorithms (34 Problems)
+
+► Greedy Algorithms (34 Problems)
+
 https://lnkd.in/gianQPuw   https://leetcode.com/problem-list/925p7hr1/
-►Graphs (32 Problems)
+
+► Graphs (32 Problems)
+
 https://lnkd.in/gcHRz5-p  https://leetcode.com/problem-list/9x1uea1h/
-►Backtracking (17 Problems)
+
+► Backtracking (17 Problems)
+
 https://lnkd.in/gersVnrz   https://leetcode.com/problem-list/9x9qz3md/
-►Linked List (13 Problems)
+
+► Linked List (13 Problems)
+
 https://lnkd.in/gT_FhqYa   https://leetcode.com/problem-list/9rizphpj/
-►Bit Manipulation (21 Problems)
+
+► Bit Manipulation (21 Problems)
+
 https://lnkd.in/gtZZc6tR   https://leetcode.com/problem-list/92qvw6c6/
-►Hash Table and Map (46 Problems)
+
+► Hash Table and Map (46 Problems)
+
 https://lnkd.in/gPsUh6w5   https://leetcode.com/problem-list/504wrexe/
-►Disjoint Set Union (Union Find) (25 Problems)
+
+► Disjoint Set Union (Union Find) (25 Problems)
+
 https://lnkd.in/gQx74mJc   https://leetcode.com/problem-list/5lhmb4mj/
-►Bridges and Articulation Points (4 Problems)
+
+► Bridges and Articulation Points (4 Problems)
+
 https://lnkd.in/gRpJ6qxN   https://leetcode.com/problem-list/9id9ahz7/
-►Dijkstra Algorithm (13 Problems)
+
+► Dijkstra Algorithm (13 Problems)
+
 https://lnkd.in/gRsxH7Th  https://leetcode.com/problem-list/9id5lube/
-►Bellman Ford Algorithm (5 Problems)
+
+► Bellman Ford Algorithm (5 Problems)
+
 https://lnkd.in/gBN54_mc   https://leetcode.com/problem-list/9id9smj2/
-►Floyd Warshall Algorithm (6 Problems)
+
+► Floyd Warshall Algorithm (6 Problems)
+
 https://lnkd.in/g6zvRYbb    https://leetcode.com/problem-list/9idenloe/
-►Topological Sort (4 Problems)
+
+► Topological Sort (4 Problems)
+
 https://lnkd.in/gBaaZCbM   https://leetcode.com/problem-list/9idxg95s/
-►Sliding Window (12 Problems)
+
+► Sliding Window (12 Problems)
+
 https://lnkd.in/gbMnsS8i   https://leetcode.com/problem-list/x1lbzfk3/
-►Trie (8 Problems)
+
+► Trie (8 Problems)
+
 https://lnkd.in/gDqU7Ypy   https://leetcode.com/problem-list/5uyupjcr/
-►Monotonic Queue and Priority Queue (13 Problems)
+
+► Monotonic Queue and Priority Queue (13 Problems)
+
 https://lnkd.in/gzrcfZtj    https://leetcode.com/problem-list/9rt1jt27/
-►Heaps (22 Problems)
+
+► Heaps (22 Problems)
+
 https://lnkd.in/gNsjGw8p   https://leetcode.com/problem-list/93chilpi/
-►Trees (Top 26 Problems)
+
+► Trees (Top 26 Problems)
 https://lnkd.in/g5vXWFu3   https://leetcode.com/problem-list/9ak7i9wv/
-►Trees (Top 74 Problems)
+
+► Trees (Top 74 Problems)
 Trees Top 74 Problems
-►Binary Search (25 Problems)
+
+► Binary Search (25 Problems)
 https://lnkd.in/gjykw7x2  https://leetcode.com/problem-list/9ixr4vaj/
-►Two Pointers (30 Problems)
+
+► Two Pointers (30 Problems)
 https://lnkd.in/gZeG-PXb   https://leetcode.com/problem-list/9ns2k47r/
-
-
 
 https://leetcode.com/u/joseph_cristiano/
